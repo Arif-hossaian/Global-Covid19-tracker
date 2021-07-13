@@ -26,8 +26,8 @@ export default class App extends Component {
         <Typography className={styles.lastUpdated}>Last Updated: {data.lastUpdate && new Date(data.lastUpdate).toDateString()}</Typography>
         <img style={{width:"350px"}} src="https://i.ibb.co/F5cGV71/COVID19.jpg" alt="covid"/>
         <Cards data={data} />
-        <CountryPicker />
-        <Chart />
+        <CountryPicker handleCountryChange={this.handleCountryChange}/>
+        <Chart data={data} country={country}/>
       </div>
     );
   }

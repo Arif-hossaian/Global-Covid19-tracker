@@ -11,8 +11,8 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   return (
     <div className={styles.container}>
       <Typography variant="h4" gutterBottom align="center">Covid cases globally:- </Typography>
-      <Grid container spacing={3} justify="center">
-        <Grid item component={Card} spacing={3} xs={12} md={3} className={cx(styles.card, styles.infected)}>
+      <Grid container justifyContent="center">
+        <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
           <CardContent>
             <Typography color="secondary" gutterBottom>
               INFECTED
