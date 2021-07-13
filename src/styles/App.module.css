@@ -1,0 +1,63 @@
+/* App.js start */
+body {
+  background-color: rgb(250, 250,250);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+font-size: 28px;
+  color: red;
+  margin-top: 20px;
+}
+.lastUpdated {
+  color: rgba(20, 19, 18, 0.308);
+  font-size: small;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+}
+/* App.js end */
+/* --------------------- */
+
+/* Cards.jsx start */
+/* .cardsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+.recovered{
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+.deaths{
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+} */
+/* Cards.jsx end */
+/* --------------------- */
+
+/* Cards.jsx start */
+/* Cards.jsx end */
+/* --------------------- */
+
+/* Cards.jsx start */
+/* Cards.jsx end */
+/* --------------------- */
+
+/* Cards.jsx start */
+/* Cards.jsx end */
+/* --------------------- */
+
+/* Cards.jsx start */
+/* Cards.jsx end */
+/* --------------------- */
